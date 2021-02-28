@@ -1,0 +1,89 @@
+.reviews
+  padding: 120px 0 48px
+  background-color: $reviews-bg-color
+
+  &__inner
+    display: flex
+    justify-content: center
+    position: relative
+
+    &::before
+      content: ''
+      width: 143px
+      height: 120px
+      background: url(../img/reviews/quote-big.svg)
+      position: absolute
+      top: -56px
+      left: 0
+      z-index: 1
+
+  &__col
+    margin: 0 15px
+    width: 50%
+
+    &--right
+      padding-top: 48px
+
+  &__text
+    margin-bottom: 24px
+    margin-left: auto
+    max-width: 445px
+
+    text-align: left
+
+    position: relative
+    z-index: 2
+
+  &__item
+    padding: 32px
+    margin-bottom: 32px
+
+    background-color: #fff
+    border-radius: $radius
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07)
+
+    &--sm
+      max-width: 350px
+
+    &--big
+      max-width: 445px
+
+    &--left
+      margin-left: auto
+
+  &__content
+    margin-top: 32px
+
+    padding-left: 32px
+    text-align: left
+    
+    position: relative
+
+    &::before
+      content: ''
+      width: 16px
+      height: 14px
+      background: url(../img/reviews/quote-sm.svg)
+      position: absolute
+      top: 0
+      left: 0
+      z-index: 1
+
+  &__feedback
+    margin-bottom: 24px
+
+    font-size: 18px
+    line-height: 32px
+    color: $text-color
+
+  &__name
+    font-size: 18px
+    font-weight: 700
+    line-height: 28px
+    color: $text-color
+
+  &__company
+    font-size: 14px
+    font-weight: 500
+    line-height: 24px
+    color: $text-reviews-color

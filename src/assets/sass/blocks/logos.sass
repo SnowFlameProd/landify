@@ -1,0 +1,29 @@
+.logos
+  padding: 15px 0
+  &__list
+    padding: 41px 0 23px
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-wrap: wrap
+
+    position: relative
+
+    &::before, &::after
+      content: ''
+      display: block
+      width: 100%
+      height: 1px
+      position: absolute
+      left: 0
+      z-index: 1
+      background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%)
+
+    &::before
+      top: 0
+
+    &::after
+      bottom: 0
+
+    li
+      margin: 0 32px 18px

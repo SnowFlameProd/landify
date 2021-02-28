@@ -1,0 +1,62 @@
+/* Normalize */
+@import "../../../node_modules/normalize.css/normalize"
+
+body
+  font-size: 18px
+  font-family: 'Manrope', sans-serif
+
+.container
+  margin: 0 auto
+  padding: 0 15px
+  width: 100%
+  max-width: 1140px
+
+  &--cta
+    position: relative
+
+.img
+  display: block
+  max-width: 100%
+  height: auto
+
+a
+  text-decoration: none
+
+p
+  margin: 0
+
+ul
+  margin: 0
+  padding-left: 0
+  list-style: none
+
+h1, h2, h3, h4, h5, h6
+  margin: 0
+
+*,
+*::after,
+*::before
+  box-sizing: border-box
+
+// Vars
+@import "vars"
+
+// Blocks
+@import "blocks/page"
+@import "blocks/section"
+@import "blocks/hero"
+@import "blocks/header"
+@import "blocks/nav"
+@import "blocks/burger"
+@import "blocks/download"
+@import "blocks/btn"
+@import "blocks/logos"
+@import "blocks/features"
+@import "blocks/reviews"
+@import "blocks/stats"
+@import "blocks/benefits"
+@import "blocks/promo"
+@import "blocks/cta"
+@import "blocks/footer"
+
+@import "media"
