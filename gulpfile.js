@@ -27,13 +27,13 @@ var path = {
     html: 'src/*.html',
     js: 'src/assets/js/*.js',
     css: 'src/assets/sass/main.sass',
-    images: 'src/assets/img/**/*.{jpg,png,svg,gif,ico}'
+    images: 'src/assets/img/**/*.{jpg,png,svg,gif,ico,webmanifest,xml}'
   },
   watch: {
     html: 'src/**/*.html',
     js: 'src/assets/js/**/*.js',
     css: 'src/assets/sass/**/*.sass',
-    images: 'src/assets/img/**/*.{jpg,png,svg,gif,ico}'
+    images: 'src/assets/img/**/*.{jpg,png,svg,gif,ico,webmanifest,xml}'
   },
   clean: './dist'
 }
